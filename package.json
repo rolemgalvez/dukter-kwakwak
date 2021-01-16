@@ -1,0 +1,22 @@
+{
+  "name": "dukter_kwakwak",
+  "version": "1.0.0",
+  "description": "Dukter Kwakwak Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/mrg-portofolio/dukter-kwakwak.git"
+  },
+  "author": "Rolem Galvez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mrg-portofolio/dukter-kwakwak/issues"
+  },
+  "homepage": "https://gitlab.com/mrg-portofolio/dukter-kwakwak#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
