@@ -42,12 +42,13 @@ img {
 #main-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   ul {
     display: flex;
 
     li {
-      padding: 1rem 1.5rem;
+      padding: 0 1.5rem;
 
       a {
         color: #fff;
@@ -70,9 +71,21 @@ img {
 
 // Header
 #header {
+  // Header Home
   &-home {
     background: $bg-image no-repeat center right / cover;
     height: 100vh;
     color: #fff;
+
+    // Header Content
+    .header-content {
+      text-align: center;
+      padding-top: 20%;
+
+      h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+      }
+    }
   }
 }
