@@ -170,6 +170,7 @@ img {
     right: 0;
     font-size: 28px;
     background: #ff9260;
+    color: #000;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -189,11 +190,13 @@ img {
     transition: all 1s; }
     #home-c .process-icon:hover {
       background: #ff9260;
+      color: #000;
       width: 90px;
       height: 90px;
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
-        background: #333; }
+        background: #333;
+        color: #fff; }
 
 #main-footer {
   background: #333;
