@@ -259,6 +259,13 @@ img {
     text-align: center;
     background: #ff9260; }
 
+#about-c .about-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  justify-self: center; }
+
 #main-footer {
   background: #333;
   color: #fff;
