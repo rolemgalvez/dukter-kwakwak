@@ -428,7 +428,7 @@ img {
   #header-home {
     height: 10rem;
     border-bottom: 3px solid #ff9260;
-    background-position: 25% 30%; }
+    background-position: 20% 30%; }
     #header-home .header-content {
       display: none; }
   #header-inner {
@@ -447,6 +447,10 @@ img {
       padding-bottom: 0; }
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
+  #about-a .about-info {
+    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; }
+  #about-c {
+    display: none; }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {
