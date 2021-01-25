@@ -43,6 +43,7 @@ img {
 #main-nav {
   display: flex;
   justify-content: space-between;
+  padding-top: 1rem;
   align-items: center;
 
   ul {
@@ -52,9 +53,10 @@ img {
       padding: 0 1.5rem;
 
       a {
+        text-decoration: none;
         color: #fff;
         text-transform: uppercase;
-        border-bottom: 3px solid transparent;
+        border-bottom: 3px transparent solid;
         padding-bottom: 0.5rem;
         transition: border-color 0.5s;
 
@@ -215,7 +217,7 @@ img {
     }
 
     // Grid Area
-    .bioimage {
+    .bio-image {
       grid-area: bioimage;
     }
 
